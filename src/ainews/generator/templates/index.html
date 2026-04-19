@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Today's AI News - {{ site_title }}{% endblock %}
+
+{% block content %}
+<div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">Today's AI News</h1>
+    <p class="text-gray-600">{{ date|date_format('%B %d, %Y') }} - {{ articles|length }} articles</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    {% for category, count in category_counts.items() %}
+    <div class="bg-white rounded-lg shadow p-4">
+        <div class="flex justify-between items-center">
+            <span class="font-semibold text-gray-700">{{ category|capitalize }}</span>
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">{{ count }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="space-y-6">
+    {% for article in articles %}
+    <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+                <div>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded mb-2">
+                        {{ article.source }}
+                    </span>
+                    {% for category in article.categories %}
+                    <span class="inline-block bg-gray-100 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded ml-1">
+                        {{ category.value }}
+                    </span>
+                    {% endfor %}
+                </div>
+                <span class="text-sm text-gray-500">{{ article.published_at|date_format('%Y-%m-%d') }}</span>
+            </div>
+
+            <h2 class="text-xl font-bold text-gray-900 mb-3">
+                <a href="{{ article.url }}" target="_blank" class="hover:text-blue-600">{{ article.title }}</a>
+            </h2>
+
+            {% if article.llm_summary %}
+            <p class="text-gray-700 mb-4">{{ article.llm_summary|truncate(200) }}</p>
+            {% elif article.summary %}
+            <p class="text-gray-700 mb-4">{{ article.summary|truncate(200) }}</p>
+            {% endif %}
+
+            {% if article.llm_key_points %}
+            <ul class="mb-4 space-y-1">
+                {% for point in article.llm_key_points[:3] %}
+                <li class="flex items-start">
+                    <i class="fas fa-chevron-right text-blue-500 mt-1 mr-2 text-xs"></i>
+                    <span class="text-gray-700">{{ point }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <div class="flex justify-between items-center mt-4 pt-4 border-t">
+                <div>
+                    {% for tag in article.tags[:5] %}
+                    <span class="inline-block bg-gray-50 text-gray-600 text-xs px-2 py-1 rounded mr-1">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <a href="{{ article.url }}" target="_blank"
+                   class="text-blue-600 hover:text-blue-800 font-medium">
+                    Read full article <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+
+<div class="mt-8 text-center">
+    <p class="text-gray-600">Updated daily at 8:00 AM UTC</p>
+</div>
+{% endblock %}

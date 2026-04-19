@@ -1,0 +1,185 @@
+# AI news sources configuration
+sources:
+  # Academic & Research
+  - name: "arXiv AI"
+    url: "http://export.arxiv.org/rss/cs.AI"
+    type: "rss"
+    enabled: true
+    priority: 5
+    config:
+      fetch_full_content: false
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "Google AI Blog"
+    url: "https://ai.googleblog.com/feeds/posts/default"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss/"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "Anthropic Blog"
+    url: "https://www.anthropic.com/news/rss"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "AI Alignment Forum"
+    url: "https://www.alignmentforum.org/feed.xml"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+    category: "ethics"
+    required_keywords: []
+    excluded_keywords: []
+
+  # Tech News
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "business"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "business"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "MIT Technology Review AI"
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  # Community & Discussion
+  - name: "Hacker News AI"
+    url: "https://hacker-news.firebaseio.com/v0/"
+    type: "api"  # TODO: Implement API crawler
+    enabled: false  # Disabled until API crawler implemented
+    priority: 3
+    config:
+      endpoint: "topstories.json"
+    category: "discussion"
+    required_keywords: ["AI", "artificial intelligence", "machine learning"]
+    excluded_keywords: []
+
+  - name: "Reddit r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/.rss"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+    category: "discussion"
+    required_keywords: []
+    excluded_keywords: []
+
+  # Chinese Sources
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    type: "rss"
+    enabled: true
+    priority: 4
+    config:
+      fetch_full_content: false
+      language: "zh"
+    category: "research"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "雷锋网 AI"
+    url: "https://www.leiphone.com/category/ai/feed"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+      language: "zh"
+    category: "business"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "知乎 AI 话题"
+    url: "https://www.zhihu.com/rss/topic/19551137"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+      language: "zh"
+    category: "discussion"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "开源中国 AI 资讯"
+    url: "https://www.oschina.net/news/rss?tag=AI"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+      language: "zh"
+    category: "tools"
+    required_keywords: []
+    excluded_keywords: []
+
+  - name: "百度 AI 开发者社区"
+    url: "https://ai.baidu.com/forum/feed"
+    type: "rss"
+    enabled: true
+    priority: 3
+    config:
+      fetch_full_content: false
+      language: "zh"
+    category: "tools"
+    required_keywords: []
+    excluded_keywords: []
+
+# Global settings
+settings:
+  max_age_days: 1
+  default_delay_seconds: 2.0
+  max_articles_per_source: 20
+  enable_summarization: false
+  summarization_model: "gpt-3.5-turbo"
+  output_dir: "./data/output"
+  cache_dir: "./data/cache"
