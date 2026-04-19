@@ -1,0 +1,10 @@
+/* Minimal styles - Tailwind does most of the work */
+.article-card {
+    transition: transform 0.2s ease-in-out;
+}
+.article-card:hover {
+    transform: translateY(-2px);
+}
+.category-badge {
+    transition: background-color 0.2s;
+}
