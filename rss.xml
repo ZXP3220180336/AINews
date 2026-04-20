@@ -6,8 +6,78 @@
     <description>Daily AI news aggregator</description>
     <language>en</language>
     <atom:link href="https://yourusername.github.io/ainews/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 19 Apr 2026 17:20:52 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 14:23:51 -0000</lastBuildDate>
 
+    
+    <item>
+        <title>DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI</title>
+        <link>https://arxiv.org/abs/2604.15456</link>
+        <description><![CDATA[
+            <strong>Source:</strong> arXiv AI<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            arXiv:2604.15456v1 Announce Type: new 
+Abstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platforms across multiple criteria, including the generation of novel scientific insights. We further demonstrate the practical utility of DeepER-Med through eight real-world clinical cases. Human clinician assessment indicates that DeepER-Med&#39;s conclusions align with clinical recommendations in seven cases, highlighting its potential for medical research and decision support.
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 04:00:00 -0000</pubDate>
+        <guid>https://arxiv.org/abs/2604.15456</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>Bilevel Optimization of Agent Skills via Monte Carlo Tree Search</title>
+        <link>https://arxiv.org/abs/2604.15709</link>
+        <description><![CDATA[
+            <strong>Source:</strong> arXiv AI<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            arXiv:2604.15709v1 Announce Type: new 
+Abstract: Agent \texttt{skills} are structured collections of instructions, tools, and supporting resources that help large language model (LLM) agents perform particular classes of tasks. Empirical evidence shows that the design of \texttt{skills} can materially affect agent task performance, yet systematically optimizing \texttt{skills} remains challenging. Since a \texttt{skill} comprises instructions, tools, and supporting resources in a structured way, optimizing it requires jointly determining both the structure of these components and the content each component contains. This gives rise to a complex decision space with strong interdependence across structure and components. We therefore represent these two coupled decisions as \texttt{skill} structure and component content, and formulate \texttt{skill} optimization as a bilevel optimization problem. We propose a bilevel optimization framework in which an outer loop employs Monte Carlo Tree Search to determine the \texttt{skill} structure, while an inner loop refines the component content within the structure selected by the outer loop. In both loops, we employ LLMs to assist the optimization procedure. We evaluate the proposed framework on an open-source Operations Research Question Answering dataset, and the experimental results suggest that the bilevel optimization framework improves the performance of the agents with the optimized \texttt{skill}.
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 04:00:00 -0000</pubDate>
+        <guid>https://arxiv.org/abs/2604.15709</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>OpenAI’s existential questions</title>
+        <link>https://techcrunch.com/2026/04/19/openais-existential-questions/</link>
+        <description><![CDATA[
+            <strong>Source:</strong> TechCrunch AI<br/>
+            <strong>Published:</strong> 2026-04-19<br/>
+            
+            On the latest episode of Equity, we discuss OpenAI&#39;s latest acquisitions and whether they address &#34;two big existential problems&#34; for the company.
+            
+        ]]></description>
+        <pubDate>Sun, 19 Apr 2026 21:24:06 -0000</pubDate>
+        <guid>https://techcrunch.com/2026/04/19/openais-existential-questions/</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>The 12-month window</title>
+        <link>https://techcrunch.com/2026/04/19/the-12-month-window/</link>
+        <description><![CDATA[
+            <strong>Source:</strong> TechCrunch AI<br/>
+            <strong>Published:</strong> 2026-04-19<br/>
+            
+            A lot of AI startups exist partly because the foundation models haven&#39;t expanded into their category yet. As many jokingly acknowledge, that won&#39;t last forever.
+            
+        ]]></description>
+        <pubDate>Sun, 19 Apr 2026 19:30:00 -0000</pubDate>
+        <guid>https://techcrunch.com/2026/04/19/the-12-month-window/</guid>
+        
+        <category>other</category>
+        
+    </item>
     
     <item>
         <title>Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures</title>
@@ -44,51 +114,102 @@
     </item>
     
     <item>
-        <title>Tesla brings its robotaxi service to Dallas and Houston</title>
-        <link>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</link>
+        <title>Chinese tech workers are starting to train their AI doubles–and pushing back</title>
+        <link>https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/</link>
         <description><![CDATA[
-            <strong>Source:</strong> TechCrunch AI<br/>
-            <strong>Published:</strong> 2026-04-18<br/>
+            <strong>Source:</strong> MIT Technology Review AI<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
             
-            The company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026.
+            Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&amp;#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with&amp;#8230;
             
         ]]></description>
-        <pubDate>Sat, 18 Apr 2026 21:37:15 -0000</pubDate>
-        <guid>https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/</guid>
+        <pubDate>Mon, 20 Apr 2026 09:00:00 -0000</pubDate>
+        <guid>https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/</guid>
         
         <category>other</category>
         
     </item>
     
     <item>
-        <title>AI chip startup Cerebras files for IPO</title>
-        <link>https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/</link>
-        <description><![CDATA[
-            <strong>Source:</strong> TechCrunch AI<br/>
-            <strong>Published:</strong> 2026-04-18<br/>
-            
-            In recent months, the company announced an agreement with Amazon Web Services to use Cerebras chips in Amazon data centers, as well as a deal with OpenAI reportedly worth more than $10 billion.
-            
-        ]]></description>
-        <pubDate>Sat, 18 Apr 2026 19:19:11 -0000</pubDate>
-        <guid>https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/</guid>
-        
-        <category>other</category>
-        
-    </item>
-    
-    <item>
-        <title>尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题</title>
-        <link>https://www.oschina.net/news/433408</link>
+        <title>Vercel 确认遭入侵：第三方 AI 工具成突破口，黑客索要 200 万美元赎金</title>
+        <link>https://www.oschina.net/news/434713</link>
         <description><![CDATA[
             <strong>Source:</strong> 开源中国 AI 资讯<br/>
-            <strong>Published:</strong> 2026-04-19<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
             
-            AI Agent 使用体验 | JeecgBoot 团队将日常 Claude Code 工作流迁移到 Gemini CLI 的阶段性总结 为什么要换 Gemini CLI JeecgBoot 低代码团队平时主力用 Claude Code 做代码生成、文档写作、重构脚本。但 Claude 最近实名认证 + 频繁封号的事闹得人心惶惶 —— 身边已经有好几个账号莫名其妙被风控，工作流一断就是一整天...
+            云开发平台Vercel近日披露一起安全入侵事件。该公司确认，攻击者通过第三方AI工具Context.ai的Google Workspace OAuth应用获取了初始访问权限，进而入侵内部系统。与此同时，一名自称&amp;quot;ShinyHunters&amp;quot;的黑客声称正在暗网论坛出售窃取的数据，并向Vercel索要200万美元赎金。 Vercel是全球知名的云开发平台，以Next.js React...
             
         ]]></description>
-        <pubDate>Sun, 19 Apr 2026 13:43:46 -0000</pubDate>
-        <guid>https://www.oschina.net/news/433408</guid>
+        <pubDate>Mon, 20 Apr 2026 11:38:56 -0000</pubDate>
+        <guid>https://www.oschina.net/news/434713</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>通义实验室推出 Fun-ASR1.5，“方言工业级可用”模型</title>
+        <link>https://www.oschina.net/news/434699</link>
+        <description><![CDATA[
+            <strong>Source:</strong> 开源中国 AI 资讯<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            通义实验室宣布正式推出 Fun-ASR1.5，实现了「方言工业级可用」的语音识别大模型。 Fun-ASR1.5 基于统一的大模型架构，单模型即可无缝覆盖 30 种语言、汉语七大方言体系及 20+ 地方口音，古诗词吟诵也能精准转写。测试显示，典型方言场景字错误率（CER）相对下降 56.2%。目前已有 5 种方言准确率突破 90%，15 种超过 80...
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 10:06:00 -0000</pubDate>
+        <guid>https://www.oschina.net/news/434699</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>jsoup 1.22.2 发布，Java HTML 解析器</title>
+        <link>https://www.oschina.net/news/434661/jsoup-1-22-2-released</link>
+        <description><![CDATA[
+            <strong>Source:</strong> 开源中国 AI 资讯<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            jsoup 1.22.2 现已发布，对库进行了多项修复和改进。它使遍历 DOM 时编辑 DOM 的操作更加可预测，使用更新的元素和更佳的文本边界更新了默认的 HTML 标签定义，并提高了解析和 HTTP 传输的可靠性。此版本还修复了清理、流解析、XML 文档类型处理和 Android 打包方面的一些特殊情况。 改进 扩展并明确了NodeTraversor在N...
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 08:32:36 -0000</pubDate>
+        <guid>https://www.oschina.net/news/434661/jsoup-1-22-2-released</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>Flink Agents 0.3 Roadmap 解读</title>
+        <link>https://my.oschina.net/u/2828172/blog/19585439</link>
+        <description><![CDATA[
+            <strong>Source:</strong> 开源中国 AI 资讯<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            最近，Flink Agents 发布了 0.2.1 版本，并展示了一个基于该框架构建的 Flink 作业智能运维 Agent，充分展现了其在事件驱动领域的潜力。但更令人兴奋的是，社区已经启动了 0.3 版本的规划讨论，其中涉及的不少功能让我倍感期待。
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 07:24:14 -0000</pubDate>
+        <guid>https://my.oschina.net/u/2828172/blog/19585439</guid>
+        
+        <category>other</category>
+        
+    </item>
+    
+    <item>
+        <title>老牌开源项目该不该接受 AI 代码？</title>
+        <link>https://my.oschina.net/u/4487475/blog/19585524</link>
+        <description><![CDATA[
+            <strong>Source:</strong> 开源中国 AI 资讯<br/>
+            <strong>Published:</strong> 2026-04-20<br/>
+            
+            对于是否接受由 AI 生成的代码，开源界的 OG 们似乎分成了两大派别。
+            
+        ]]></description>
+        <pubDate>Mon, 20 Apr 2026 09:56:34 -0000</pubDate>
+        <guid>https://my.oschina.net/u/4487475/blog/19585524</guid>
         
         <category>other</category>
         

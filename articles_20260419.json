@@ -1,0 +1,1226 @@
+[
+  {
+    "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+    "url": "https://arxiv.org/abs/2604.15456",
+    "source": "arXiv AI",
+    "published_at": "2026-04-20T04:00:00",
+    "summary": "arXiv:2604.15456v1 Announce Type: new \nAbstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platforms across multiple criteria, including the generation of novel scientific insights. We further demonstrate the practical utility of DeepER-Med through eight real-world clinical cases. Human clinician assessment indicates that DeepER-Med's conclusions align with clinical recommendations in seven cases, highlighting its potential for medical research and decision support.",
+    "content": "arXiv:2604.15456v1 Announce Type: new \nAbstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platforms across multiple criteria, including the generation of novel scientific insights. We further demonstrate the practical utility of DeepER-Med through eight real-world clinical cases. Human clinician assessment indicates that DeepER-Med's conclusions align with clinical recommendations in seven cases, highlighting its potential for medical research and decision support.",
+    "authors": [
+      "Zhizheng Wang, Chih-Hsuan Wei, Joey Chan, Robert Leaman, Chi-Ping Day, Chuan Wu, Mark A Knepper, Antolin Serrano Farias, Jordina Rincon-Torroella, Hasan Slika, Betty Tyler, Ryan Huu-Tuan Nguyen, Asmita Indurkar, M\\'elanie H\\'ebert, Shubo Tian, Lauren He, Noor Naffakh, Aseem Aseem, Nicholas Wan, Emily Y Chew, Tiarnan D L Keenan, Zhiyong Lu"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "med",
+      "based",
+      "evidence",
+      "deeper",
+      "with",
+      "deep",
+      "medical",
+      "research",
+      "cs.AI",
+      "agentic",
+      "clinical"
+    ],
+    "importance_score": 0.6900000000000001,
+    "crawled_at": "2026-04-20T14:23:30.218394",
+    "updated_at": "2026-04-20T14:23:30.218395",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://arxiv.org/abs/2604.15456"
+          }
+        ],
+        "link": "https://arxiv.org/abs/2604.15456",
+        "summary": "arXiv:2604.15456v1 Announce Type: new \nAbstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platforms across multiple criteria, including the generation of novel scientific insights. We further demonstrate the practical utility of DeepER-Med through eight real-world clinical cases. Human clinician assessment indicates that DeepER-Med's conclusions align with clinical recommendations in seven cases, highlighting its potential for medical research and decision support.",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "arXiv:2604.15456v1 Announce Type: new \nAbstract: Trustworthiness and transparency are essential for the clinical adoption of artificial intelligence (AI) in healthcare and biomedical research. Recent deep research systems aim to accelerate evidence-grounded scientific discovery by integrating AI agents with multi-hop information retrieval, reasoning, and synthesis. However, most existing systems lack explicit and inspectable criteria for evidence appraisal, creating a risk of compounding errors and making it difficult for researchers and clinicians to assess the reliability of their outputs. In parallel, current benchmarking approaches rarely evaluate performance on complex, real-world medical questions. Here, we introduce DeepER-Med, a Deep Evidence-based Research framework for Medicine with an agentic AI system. DeepER-Med frames deep medical research as an explicit and inspectable workflow of evidence-based generation, consisting of three modules: research planning, agentic collaboration, and evidence synthesis. To support realistic evaluation, we also present DeepER-MedQA, an evidence-grounded dataset comprising 100 expert-level research questions derived from authentic medical research scenarios and curated by a multidisciplinary panel of 11 biomedical experts. Expert manual evaluation demonstrates that DeepER-Med consistently outperforms widely used production-grade platforms across multiple criteria, including the generation of novel scientific insights. We further demonstrate the practical utility of DeepER-Med through eight real-world clinical cases. Human clinician assessment indicates that DeepER-Med's conclusions align with clinical recommendations in seven cases, highlighting its potential for medical research and decision support."
+        },
+        "id": "oai:arXiv.org:2604.15456v1",
+        "guidislink": false,
+        "tags": [
+          {
+            "term": "cs.AI",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "published": "Mon, 20 Apr 2026 00:00:00 -0400",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          4,
+          0,
+          0,
+          0,
+          110,
+          0
+        ],
+        "arxiv_announce_type": "new",
+        "rights": "http://creativecommons.org/licenses/by/4.0/",
+        "rights_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "authors": [
+          {
+            "name": "Zhizheng Wang, Chih-Hsuan Wei, Joey Chan, Robert Leaman, Chi-Ping Day, Chuan Wu, Mark A Knepper, Antolin Serrano Farias, Jordina Rincon-Torroella, Hasan Slika, Betty Tyler, Ryan Huu-Tuan Nguyen, Asmita Indurkar, M\\'elanie H\\'ebert, Shubo Tian, Lauren He, Noor Naffakh, Aseem Aseem, Nicholas Wan, Emily Y Chew, Tiarnan D L Keenan, Zhiyong Lu"
+          }
+        ],
+        "author": "Zhizheng Wang, Chih-Hsuan Wei, Joey Chan, Robert Leaman, Chi-Ping Day, Chuan Wu, Mark A Knepper, Antolin Serrano Farias, Jordina Rincon-Torroella, Hasan Slika, Betty Tyler, Ryan Huu-Tuan Nguyen, Asmita Indurkar, M\\'elanie H\\'ebert, Shubo Tian, Lauren He, Noor Naffakh, Aseem Aseem, Nicholas Wan, Emily Y Chew, Tiarnan D L Keenan, Zhiyong Lu",
+        "author_detail": {
+          "name": "Zhizheng Wang, Chih-Hsuan Wei, Joey Chan, Robert Leaman, Chi-Ping Day, Chuan Wu, Mark A Knepper, Antolin Serrano Farias, Jordina Rincon-Torroella, Hasan Slika, Betty Tyler, Ryan Huu-Tuan Nguyen, Asmita Indurkar, M\\'elanie H\\'ebert, Shubo Tian, Lauren He, Noor Naffakh, Aseem Aseem, Nicholas Wan, Emily Y Chew, Tiarnan D L Keenan, Zhiyong Lu"
+        }
+      },
+      "feed_info": "cs.AI updates on arXiv.org"
+    },
+    "embedding": null
+  },
+  {
+    "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
+    "url": "https://arxiv.org/abs/2604.15709",
+    "source": "arXiv AI",
+    "published_at": "2026-04-20T04:00:00",
+    "summary": "arXiv:2604.15709v1 Announce Type: new \nAbstract: Agent \\texttt{skills} are structured collections of instructions, tools, and supporting resources that help large language model (LLM) agents perform particular classes of tasks. Empirical evidence shows that the design of \\texttt{skills} can materially affect agent task performance, yet systematically optimizing \\texttt{skills} remains challenging. Since a \\texttt{skill} comprises instructions, tools, and supporting resources in a structured way, optimizing it requires jointly determining both the structure of these components and the content each component contains. This gives rise to a complex decision space with strong interdependence across structure and components. We therefore represent these two coupled decisions as \\texttt{skill} structure and component content, and formulate \\texttt{skill} optimization as a bilevel optimization problem. We propose a bilevel optimization framework in which an outer loop employs Monte Carlo Tree Search to determine the \\texttt{skill} structure, while an inner loop refines the component content within the structure selected by the outer loop. In both loops, we employ LLMs to assist the optimization procedure. We evaluate the proposed framework on an open-source Operations Research Question Answering dataset, and the experimental results suggest that the bilevel optimization framework improves the performance of the agents with the optimized \\texttt{skill}.",
+    "content": "arXiv:2604.15709v1 Announce Type: new \nAbstract: Agent \\texttt{skills} are structured collections of instructions, tools, and supporting resources that help large language model (LLM) agents perform particular classes of tasks. Empirical evidence shows that the design of \\texttt{skills} can materially affect agent task performance, yet systematically optimizing \\texttt{skills} remains challenging. Since a \\texttt{skill} comprises instructions, tools, and supporting resources in a structured way, optimizing it requires jointly determining both the structure of these components and the content each component contains. This gives rise to a complex decision space with strong interdependence across structure and components. We therefore represent these two coupled decisions as \\texttt{skill} structure and component content, and formulate \\texttt{skill} optimization as a bilevel optimization problem. We propose a bilevel optimization framework in which an outer loop employs Monte Carlo Tree Search to determine the \\texttt{skill} structure, while an inner loop refines the component content within the structure selected by the outer loop. In both loops, we employ LLMs to assist the optimization procedure. We evaluate the proposed framework on an open-source Operations Research Question Answering dataset, and the experimental results suggest that the bilevel optimization framework improves the performance of the agents with the optimized \\texttt{skill}.",
+    "authors": [
+      "Chenyi Huang, Haoting Zhang, Jingxu Xu, Zeyu Zheng, Yunduan Lin"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "framework",
+      "structure",
+      "content",
+      "that",
+      "cs.AI",
+      "skill",
+      "texttt",
+      "bilevel",
+      "skills",
+      "component",
+      "optimization"
+    ],
+    "importance_score": 0.6900000000000001,
+    "crawled_at": "2026-04-20T14:23:30.218799",
+    "updated_at": "2026-04-20T14:23:30.218799",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://arxiv.org/abs/2604.15709"
+          }
+        ],
+        "link": "https://arxiv.org/abs/2604.15709",
+        "summary": "arXiv:2604.15709v1 Announce Type: new \nAbstract: Agent \\texttt{skills} are structured collections of instructions, tools, and supporting resources that help large language model (LLM) agents perform particular classes of tasks. Empirical evidence shows that the design of \\texttt{skills} can materially affect agent task performance, yet systematically optimizing \\texttt{skills} remains challenging. Since a \\texttt{skill} comprises instructions, tools, and supporting resources in a structured way, optimizing it requires jointly determining both the structure of these components and the content each component contains. This gives rise to a complex decision space with strong interdependence across structure and components. We therefore represent these two coupled decisions as \\texttt{skill} structure and component content, and formulate \\texttt{skill} optimization as a bilevel optimization problem. We propose a bilevel optimization framework in which an outer loop employs Monte Carlo Tree Search to determine the \\texttt{skill} structure, while an inner loop refines the component content within the structure selected by the outer loop. In both loops, we employ LLMs to assist the optimization procedure. We evaluate the proposed framework on an open-source Operations Research Question Answering dataset, and the experimental results suggest that the bilevel optimization framework improves the performance of the agents with the optimized \\texttt{skill}.",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "arXiv:2604.15709v1 Announce Type: new \nAbstract: Agent \\texttt{skills} are structured collections of instructions, tools, and supporting resources that help large language model (LLM) agents perform particular classes of tasks. Empirical evidence shows that the design of \\texttt{skills} can materially affect agent task performance, yet systematically optimizing \\texttt{skills} remains challenging. Since a \\texttt{skill} comprises instructions, tools, and supporting resources in a structured way, optimizing it requires jointly determining both the structure of these components and the content each component contains. This gives rise to a complex decision space with strong interdependence across structure and components. We therefore represent these two coupled decisions as \\texttt{skill} structure and component content, and formulate \\texttt{skill} optimization as a bilevel optimization problem. We propose a bilevel optimization framework in which an outer loop employs Monte Carlo Tree Search to determine the \\texttt{skill} structure, while an inner loop refines the component content within the structure selected by the outer loop. In both loops, we employ LLMs to assist the optimization procedure. We evaluate the proposed framework on an open-source Operations Research Question Answering dataset, and the experimental results suggest that the bilevel optimization framework improves the performance of the agents with the optimized \\texttt{skill}."
+        },
+        "id": "oai:arXiv.org:2604.15709v1",
+        "guidislink": false,
+        "tags": [
+          {
+            "term": "cs.AI",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "published": "Mon, 20 Apr 2026 00:00:00 -0400",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          4,
+          0,
+          0,
+          0,
+          110,
+          0
+        ],
+        "arxiv_announce_type": "new",
+        "rights": "http://creativecommons.org/licenses/by/4.0/",
+        "rights_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://export.arxiv.org/rss/cs.AI",
+          "value": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "authors": [
+          {
+            "name": "Chenyi Huang, Haoting Zhang, Jingxu Xu, Zeyu Zheng, Yunduan Lin"
+          }
+        ],
+        "author": "Chenyi Huang, Haoting Zhang, Jingxu Xu, Zeyu Zheng, Yunduan Lin",
+        "author_detail": {
+          "name": "Chenyi Huang, Haoting Zhang, Jingxu Xu, Zeyu Zheng, Yunduan Lin"
+        }
+      },
+      "feed_info": "cs.AI updates on arXiv.org"
+    },
+    "embedding": null
+  },
+  {
+    "title": "OpenAI’s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "source": "TechCrunch AI",
+    "published_at": "2026-04-19T21:24:06",
+    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "content": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "authors": [
+      "Anthony Ha"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "acquisitions",
+      "address",
+      "discuss",
+      "existential",
+      "they",
+      "Anthropic",
+      "whether",
+      "equity",
+      "OpenAI",
+      "Equity podcast",
+      "episode",
+      "openai",
+      "latest",
+      "AI"
+    ],
+    "importance_score": 0.49,
+    "crawled_at": "2026-04-20T14:23:34.161524",
+    "updated_at": "2026-04-20T14:23:34.161525",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "OpenAI’s existential questions",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "OpenAI’s existential questions"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://techcrunch.com/2026/04/19/openais-existential-questions/"
+          }
+        ],
+        "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+        "authors": [
+          {
+            "name": "Anthony Ha"
+          }
+        ],
+        "author": "Anthony Ha",
+        "author_detail": {
+          "name": "Anthony Ha"
+        },
+        "published": "Sun, 19 Apr 2026 21:24:06 +0000",
+        "published_parsed": [
+          2026,
+          4,
+          19,
+          21,
+          24,
+          6,
+          6,
+          109,
+          0
+        ],
+        "tags": [
+          {
+            "term": "AI",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Anthropic",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Equity podcast",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "OpenAI",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "id": "https://techcrunch.com/?p=3114050",
+        "guidislink": false,
+        "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company."
+        }
+      },
+      "feed_info": "AI News & Artificial Intelligence | TechCrunch"
+    },
+    "embedding": null
+  },
+  {
+    "title": "The 12-month window",
+    "url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+    "source": "TechCrunch AI",
+    "published_at": "2026-04-19T19:30:00",
+    "summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
+    "content": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
+    "authors": [
+      "Connie Loizos"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "expanded",
+      "partly",
+      "foundation",
+      "startups",
+      "Elad Gil",
+      "because",
+      "haven",
+      "into",
+      "Startups",
+      "models",
+      "No Priors",
+      "exist",
+      "Sarah Guo",
+      "Venture",
+      "AI",
+      "lot"
+    ],
+    "importance_score": 0.49,
+    "crawled_at": "2026-04-20T14:23:34.161655",
+    "updated_at": "2026-04-20T14:23:34.161655",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "The 12-month window",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "The 12-month window"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://techcrunch.com/2026/04/19/the-12-month-window/"
+          }
+        ],
+        "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+        "authors": [
+          {
+            "name": "Connie Loizos"
+          }
+        ],
+        "author": "Connie Loizos",
+        "author_detail": {
+          "name": "Connie Loizos"
+        },
+        "published": "Sun, 19 Apr 2026 19:30:00 +0000",
+        "published_parsed": [
+          2026,
+          4,
+          19,
+          19,
+          30,
+          0,
+          6,
+          109,
+          0
+        ],
+        "tags": [
+          {
+            "term": "AI",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Startups",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Venture",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "No Priors",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Sarah Guo",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Elad Gil",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "id": "https://techcrunch.com/?p=3114032",
+        "guidislink": false,
+        "summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever."
+        }
+      },
+      "feed_info": "AI News & Artificial Intelligence | TechCrunch"
+    },
+    "embedding": null
+  },
+  {
+    "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
+    "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
+    "source": "TechCrunch AI",
+    "published_at": "2026-04-19T16:30:00",
+    "summary": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\"",
+    "content": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\"",
+    "authors": [
+      "Anthony Ha"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "scrutiny",
+      "ice",
+      "Security",
+      "Alexander Karp",
+      "come",
+      "with",
+      "bent",
+      "palantir",
+      "worked",
+      "Eliot Higgins",
+      "ideological",
+      "Palantir",
+      "AI",
+      "more",
+      "Government & Policy",
+      "under"
+    ],
+    "importance_score": 0.49,
+    "crawled_at": "2026-04-20T14:23:34.161774",
+    "updated_at": "2026-04-20T14:23:34.161775",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/"
+          }
+        ],
+        "link": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
+        "authors": [
+          {
+            "name": "Anthony Ha"
+          }
+        ],
+        "author": "Anthony Ha",
+        "author_detail": {
+          "name": "Anthony Ha"
+        },
+        "published": "Sun, 19 Apr 2026 16:30:00 +0000",
+        "published_parsed": [
+          2026,
+          4,
+          19,
+          16,
+          30,
+          0,
+          6,
+          109,
+          0
+        ],
+        "tags": [
+          {
+            "term": "AI",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Government & Policy",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Security",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Alexander Karp",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Eliot Higgins",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Palantir",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "id": "https://techcrunch.com/?p=3114010",
+        "guidislink": false,
+        "summary": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\"",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\""
+        }
+      },
+      "feed_info": "AI News & Artificial Intelligence | TechCrunch"
+    },
+    "embedding": null
+  },
+  {
+    "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
+    "url": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
+    "source": "TechCrunch AI",
+    "published_at": "2026-04-19T16:01:00",
+    "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+    "content": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+    "authors": [
+      "Kirsten Korosec"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "Uber",
+      "your",
+      "techcrunch mobility",
+      "future",
+      "techcrunch",
+      "transportation",
+      "Tesla",
+      "back",
+      "eclipse",
+      "Rivian",
+      "more",
+      "mobility",
+      "Transportation",
+      "than",
+      "slate",
+      "jeff bezos",
+      "Loop",
+      "welcome",
+      "hub",
+      "Waymo",
+      "AI"
+    ],
+    "importance_score": 0.49,
+    "crawled_at": "2026-04-20T14:23:34.161913",
+    "updated_at": "2026-04-20T14:23:34.161914",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "TechCrunch Mobility: Uber enters its assetmaxxing era"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/"
+          }
+        ],
+        "link": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
+        "authors": [
+          {
+            "name": "Kirsten Korosec"
+          }
+        ],
+        "author": "Kirsten Korosec",
+        "author_detail": {
+          "name": "Kirsten Korosec"
+        },
+        "published": "Sun, 19 Apr 2026 16:01:00 +0000",
+        "published_parsed": [
+          2026,
+          4,
+          19,
+          16,
+          1,
+          0,
+          6,
+          109,
+          0
+        ],
+        "tags": [
+          {
+            "term": "Transportation",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "AI",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "jeff bezos",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "slate",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Tesla",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Uber",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "eclipse",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Loop",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Waymo",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "Rivian",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "techcrunch mobility",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "id": "https://techcrunch.com/?p=3113818",
+        "guidislink": false,
+        "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://techcrunch.com/category/artificial-intelligence/feed/",
+          "value": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
+        }
+      },
+      "feed_info": "AI News & Artificial Intelligence | TechCrunch"
+    },
+    "embedding": null
+  },
+  {
+    "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
+    "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+    "source": "MIT Technology Review AI",
+    "published_at": "2026-04-20T09:00:00",
+    "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with&#8230;",
+    "content": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with&#8230;",
+    "authors": [
+      "Caiwei Chen"
+    ],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "them",
+      "bosses",
+      "tech",
+      "instructed",
+      "being",
+      "china",
+      "their",
+      "train",
+      "workers",
+      "Artificial intelligence",
+      "agents",
+      "App"
+    ],
+    "importance_score": 0.49,
+    "crawled_at": "2026-04-20T14:23:34.643628",
+    "updated_at": "2026-04-20T14:23:34.643629",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+          "value": "Chinese tech workers are starting to train their AI doubles–and pushing back"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/"
+          }
+        ],
+        "link": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+        "authors": [
+          {
+            "name": "Caiwei Chen"
+          }
+        ],
+        "author": "Caiwei Chen",
+        "author_detail": {
+          "name": "Caiwei Chen"
+        },
+        "published": "Mon, 20 Apr 2026 09:00:00 +0000",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          9,
+          0,
+          0,
+          0,
+          110,
+          0
+        ],
+        "tags": [
+          {
+            "term": "Artificial intelligence",
+            "scheme": null,
+            "label": null
+          },
+          {
+            "term": "App",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "id": "https://www.technologyreview.com/?p=1136149",
+        "guidislink": false,
+        "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with&#8230;",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+          "value": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with&#8230;"
+        },
+        "content": [
+          {
+            "type": "text/html",
+            "language": null,
+            "base": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+            "value": "<p>Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&nbsp;</p>\n\n\n\n<p>Earlier this month <a href=\"https://github.com/titanwings/colleague-skill/blob/main/SKILL.md\">a GitHub project</a> called Colleague Skill, which claimed workers could use it to “distill” their colleagues’ skills and personality traits and replicate them with an AI agent, went viral on Chinese social media. Though the project was created as a spoof, it struck a nerve among tech workers, a number of whom told <em>MIT Technology Review</em> that their bosses are encouraging them to document their workflows in order to automate specific tasks and processes using AI agent tools like OpenClaw or Claude Code.&nbsp;</p>\n\n\n\n<p>To set up Colleague Skill, a user names the coworker whose tasks they want to replicate and adds basic profile details. The tool then automatically imports chat history and files from Lark and DingTalk, both popular workplace apps in China, and generates reusable manuals describing that coworker’s duties—and even their unique quirks—for an AI agent to replicate.&nbsp;</p>\n\n\n\n<p>Colleague Skill was created by Tianyi Zhou, who works as an engineer at the Shanghai Artificial Intelligence Laboratory. Earlier this week he told Chinese outlet <em>Southern Metropolis Daily</em> that the project was started as a stunt, prompted by AI-related layoffs and by the growing tendency of companies to ask employees to automate themselves. He didn’t respond to requests for further comment.</p>\n\n\n\n\n\n<p>Internet users have found humor in the idea behind the tool, joking about automating their coworkers before themselves. However, Colleague Skill’s virality has sparked a lot of debate about workers’ dignity and individuality in the age of AI.</p>\n\n\n\n<p>After seeing Colleague Skill on social media, Amber Li, 27, a tech worker in Shanghai, used it to recreate a former coworker as a personal experiment. Within minutes, the tool created a file detailing how that person did their job. “It is surprisingly good,” Li says. “It even captures the person’s little quirks, like how they react and their punctuation habits.” With this skill, Li can use an AI agent as a new “coworker” that helps debug her code and replies instantly. It felt uncanny and uncomfortable, Li says.&nbsp;</p>\n\n\n\n<p>Even so,&nbsp; replacing coworkers with agents could become a norm. Since <a href=\"https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/\">OpenClaw became a national craze</a>, bosses in China have been pushing tech workers to experiment with agents.&nbsp;</p>\n\n\n\n<p>Although AI agents can take control of your computer, read and summarize news, reply to emails, and book restaurant reservations for you, tech workers on the ground say their utility has so far proven to be limited in business contexts. Asking employees to make manuals describing the minutiae of their day-to-day jobs the way Colleague Skill does is one way to help bridge that gap.&nbsp;</p>\n\n\n\n<p>Hancheng Cao, an assistant professor at Emory University who studies AI and work, believes that companies have good reasons to push employees to create work blueprints like these, beyond simply following a trend. “Firms gain not only internal experience with the tools, but also richer data on employee know-how, workflows, and decision patterns. That helps companies see which parts of work can be standardized or codified into systems, and which still depend on human judgment,” he says.</p>\n\n\n\n<p>To employees, though, making agents or even blueprints for them can feel strange and alienating. One software engineer, who spoke with <em>MIT Technology Review</em> anonymously because of concerns about their job security, trained an AI (not Colleague Skill) on their workflow and found that the process felt reductive—as if their work had been flattened into modules in a way that made them easier to replace. On social media, workers have turned to bleak humor to express similar feelings. In one comment on Rednote, a user wrote that “a cold farewell can be turned into warm tokens,” quipping that if they use Colleague Skill to distill their coworkers into tasks first, they themselves might survive a little longer.</p>\n\n\n\n\n\n<p>The push for creating agents has also spurred clever countermeasures. Irritated by the idea of reducing a person to a skill, Koki Xu, 26 an AI product manager in Beijing, published <a href=\"https://x.com/whyyoutouzhele/status/2040195137465462998?s=20\">an “anti-distillation” skill</a> on GitHub on April 4. The tool, which took Xu about an hour to build, is designed to sabotage the process of creating workflows for agents. Users can choose between light, medium, and heavy sabotage modes depending on how closely their boss is observing the process, and the agent rewrites the material into generic, non-actionable language that would produce a less useful AI stand-in. A video Xu posted about the project went viral, drawing more than 5 million likes across platforms.</p>\n\n\n\n<p>Xu told <em>MIT Technology Review</em> that she has been following the Colleague Skill trend from the start and that it has made her think about alienation, disempowerment, and broader implications for labor. “I originally wanted to write an op-ed, but decided it would be more useful to make something that pushes back against it,” she says.</p>\n\n\n\n<p>Xu, who has undergraduate and master’s degrees in law, said the trend also raises legal questions. While a company may be able to argue that work chat histories and materials created on a work laptop are corporate property, a skill like this can also capture elements of personality, tone, and judgment, making ownership much less clear. She said she hopes Colleague Skill prompts more discussion about how to protect workers’ dignity and identity in the age of AI. “I believe it’s important to keep up with these trends so we (employees) can participate in shaping how they are used,” she says. Xu herself is an avid AI adopter, with seven OpenClaw agents set up across her personal and work devices.</p>\n\n\n\n<p>Li, the tech worker in Shanghai, says her company has not yet found a way to replace actual workers with AI tools, largely because they remain unreliable and require constant supervision. “I don’t feel like my job is immediately at risk,” she says. “But I do feel that my value is being cheapened, and I don’t know what to do about it.”</p>\n\n\n\n<p></p>"
+          }
+        ],
+        "post-id": "1136149"
+      },
+      "feed_info": "Artificial intelligence – MIT Technology Review"
+    },
+    "embedding": null
+  },
+  {
+    "title": "Vercel 确认遭入侵：第三方 AI 工具成突破口，黑客索要 200 万美元赎金",
+    "url": "https://www.oschina.net/news/434713",
+    "source": "开源中国 AI 资讯",
+    "published_at": "2026-04-20T11:38:56",
+    "summary": "云开发平台Vercel近日披露一起安全入侵事件。该公司确认，攻击者通过第三方AI工具Context.ai的Google Workspace OAuth应用获取了初始访问权限，进而入侵内部系统。与此同时，一名自称&quot;ShinyHunters&quot;的黑客声称正在暗网论坛出售窃取的数据，并向Vercel索要200万美元赎金。 Vercel是全球知名的云开发平台，以Next.js React...",
+    "content": "云开发平台Vercel近日披露一起安全入侵事件。该公司确认，攻击者通过第三方AI工具Context.ai的Google Workspace OAuth应用获取了初始访问权限，进而入侵内部系统。与此同时，一名自称&quot;ShinyHunters&quot;的黑客声称正在暗网论坛出售窃取的数据，并向Vercel索要200万美元赎金。 Vercel是全球知名的云开发平台，以Next.js React...",
+    "authors": [],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "攻击者通过第三方ai工具context",
+      "workspace",
+      "一名自称",
+      "云开发平台vercel近日披露一起安全入侵事件",
+      "quot",
+      "与此同时",
+      "该公司确认",
+      "oauth应用获取了初始访问权限",
+      "ai的google",
+      "进而入侵内部系统",
+      "综合新闻"
+    ],
+    "importance_score": 0.39,
+    "crawled_at": "2026-04-20T14:23:45.332202",
+    "updated_at": "2026-04-20T14:23:45.332204",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "Vercel 确认遭入侵：第三方 AI 工具成突破口，黑客索要 200 万美元赎金",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "Vercel 确认遭入侵：第三方 AI 工具成突破口，黑客索要 200 万美元赎金"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.oschina.net/news/434713"
+          }
+        ],
+        "link": "https://www.oschina.net/news/434713",
+        "tags": [
+          {
+            "term": "综合新闻",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "summary": "云开发平台Vercel近日披露一起安全入侵事件。该公司确认，攻击者通过第三方AI工具Context.ai的Google Workspace OAuth应用获取了初始访问权限，进而入侵内部系统。与此同时，一名自称&quot;ShinyHunters&quot;的黑客声称正在暗网论坛出售窃取的数据，并向Vercel索要200万美元赎金。 Vercel是全球知名的云开发平台，以Next.js React...",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "云开发平台Vercel近日披露一起安全入侵事件。该公司确认，攻击者通过第三方AI工具Context.ai的Google Workspace OAuth应用获取了初始访问权限，进而入侵内部系统。与此同时，一名自称&quot;ShinyHunters&quot;的黑客声称正在暗网论坛出售窃取的数据，并向Vercel索要200万美元赎金。 Vercel是全球知名的云开发平台，以Next.js React..."
+        },
+        "published": "Mon, 20 Apr 2026 19:38:56 +0800",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          11,
+          38,
+          56,
+          0,
+          110,
+          0
+        ],
+        "id": "https://www.oschina.net/news/434713",
+        "guidislink": false
+      },
+      "feed_info": "OSCHINA 社区最新新闻"
+    },
+    "embedding": null
+  },
+  {
+    "title": "通义实验室推出 Fun-ASR1.5，“方言工业级可用”模型",
+    "url": "https://www.oschina.net/news/434699",
+    "source": "开源中国 AI 资讯",
+    "published_at": "2026-04-20T10:06:00",
+    "summary": "通义实验室宣布正式推出 Fun-ASR1.5，实现了「方言工业级可用」的语音识别大模型。 Fun-ASR1.5 基于统一的大模型架构，单模型即可无缝覆盖 30 种语言、汉语七大方言体系及 20+ 地方口音，古诗词吟诵也能精准转写。测试显示，典型方言场景字错误率（CER）相对下降 56.2%。目前已有 5 种方言准确率突破 90%，15 种超过 80...",
+    "content": "通义实验室宣布正式推出 Fun-ASR1.5，实现了「方言工业级可用」的语音识别大模型。 Fun-ASR1.5 基于统一的大模型架构，单模型即可无缝覆盖 30 种语言、汉语七大方言体系及 20+ 地方口音，古诗词吟诵也能精准转写。测试显示，典型方言场景字错误率（CER）相对下降 56.2%。目前已有 5 种方言准确率突破 90%，15 种超过 80...",
+    "authors": [],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "单模型即可无缝覆盖",
+      "asr1",
+      "基于统一的大模型架构",
+      "实现了",
+      "汉语七大方言体系及",
+      "通义实验室宣布正式推出",
+      "的语音识别大模型",
+      "种语言",
+      "fun",
+      "综合新闻",
+      "方言工业级可用"
+    ],
+    "importance_score": 0.39,
+    "crawled_at": "2026-04-20T14:23:45.332309",
+    "updated_at": "2026-04-20T14:23:45.332310",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "通义实验室推出 Fun-ASR1.5，“方言工业级可用”模型",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "通义实验室推出 Fun-ASR1.5，“方言工业级可用”模型"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.oschina.net/news/434699"
+          }
+        ],
+        "link": "https://www.oschina.net/news/434699",
+        "tags": [
+          {
+            "term": "综合新闻",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "summary": "通义实验室宣布正式推出 Fun-ASR1.5，实现了「方言工业级可用」的语音识别大模型。 Fun-ASR1.5 基于统一的大模型架构，单模型即可无缝覆盖 30 种语言、汉语七大方言体系及 20+ 地方口音，古诗词吟诵也能精准转写。测试显示，典型方言场景字错误率（CER）相对下降 56.2%。目前已有 5 种方言准确率突破 90%，15 种超过 80...",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "通义实验室宣布正式推出 Fun-ASR1.5，实现了「方言工业级可用」的语音识别大模型。 Fun-ASR1.5 基于统一的大模型架构，单模型即可无缝覆盖 30 种语言、汉语七大方言体系及 20+ 地方口音，古诗词吟诵也能精准转写。测试显示，典型方言场景字错误率（CER）相对下降 56.2%。目前已有 5 种方言准确率突破 90%，15 种超过 80..."
+        },
+        "published": "Mon, 20 Apr 2026 18:06:00 +0800",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          10,
+          6,
+          0,
+          0,
+          110,
+          0
+        ],
+        "id": "https://www.oschina.net/news/434699",
+        "guidislink": false
+      },
+      "feed_info": "OSCHINA 社区最新新闻"
+    },
+    "embedding": null
+  },
+  {
+    "title": "老牌开源项目该不该接受 AI 代码？",
+    "url": "https://my.oschina.net/u/4487475/blog/19585524",
+    "source": "开源中国 AI 资讯",
+    "published_at": "2026-04-20T09:56:34",
+    "summary": "对于是否接受由 AI 生成的代码，开源界的 OG 们似乎分成了两大派别。",
+    "content": "对于是否接受由 AI 生成的代码，开源界的 OG 们似乎分成了两大派别。",
+    "authors": [],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "对于是否接受由",
+      "开源界的",
+      "综合新闻",
+      "们似乎分成了两大派别",
+      "生成的代码"
+    ],
+    "importance_score": 0.29000000000000004,
+    "crawled_at": "2026-04-20T14:23:45.332393",
+    "updated_at": "2026-04-20T14:23:45.332394",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "老牌开源项目该不该接受 AI 代码？",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "老牌开源项目该不该接受 AI 代码？"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://my.oschina.net/u/4487475/blog/19585524"
+          }
+        ],
+        "link": "https://my.oschina.net/u/4487475/blog/19585524",
+        "tags": [
+          {
+            "term": "综合新闻",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "summary": "对于是否接受由 AI 生成的代码，开源界的 OG 们似乎分成了两大派别。",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "对于是否接受由 AI 生成的代码，开源界的 OG 们似乎分成了两大派别。"
+        },
+        "published": "Mon, 20 Apr 2026 17:56:34 +0800",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          9,
+          56,
+          34,
+          0,
+          110,
+          0
+        ],
+        "id": "https://my.oschina.net/u/4487475/blog/19585524",
+        "guidislink": false
+      },
+      "feed_info": "OSCHINA 社区最新新闻"
+    },
+    "embedding": null
+  },
+  {
+    "title": "jsoup 1.22.2 发布，Java HTML 解析器",
+    "url": "https://www.oschina.net/news/434661/jsoup-1-22-2-released",
+    "source": "开源中国 AI 资讯",
+    "published_at": "2026-04-20T08:32:36",
+    "summary": "jsoup 1.22.2 现已发布，对库进行了多项修复和改进。它使遍历 DOM 时编辑 DOM 的操作更加可预测，使用更新的元素和更佳的文本边界更新了默认的 HTML 标签定义，并提高了解析和 HTTP 传输的可靠性。此版本还修复了清理、流解析、XML 文档类型处理和 Android 打包方面的一些特殊情况。 改进 扩展并明确了NodeTraversor在N...",
+    "content": "jsoup 1.22.2 现已发布，对库进行了多项修复和改进。它使遍历 DOM 时编辑 DOM 的操作更加可预测，使用更新的元素和更佳的文本边界更新了默认的 HTML 标签定义，并提高了解析和 HTTP 传输的可靠性。此版本还修复了清理、流解析、XML 文档类型处理和 Android 打包方面的一些特殊情况。 改进 扩展并明确了NodeTraversor在N...",
+    "authors": [],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "使用更新的元素和更佳的文本边界更新了默认的",
+      "dom",
+      "jsoup",
+      "的操作更加可预测",
+      "对库进行了多项修复和改进",
+      "它使遍历",
+      "现已发布",
+      "软件更新新闻",
+      "时编辑",
+      "html",
+      "标签定义"
+    ],
+    "importance_score": 0.39,
+    "crawled_at": "2026-04-20T14:23:45.332658",
+    "updated_at": "2026-04-20T14:23:45.332659",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "jsoup 1.22.2 发布，Java HTML 解析器",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "jsoup 1.22.2 发布，Java HTML 解析器"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.oschina.net/news/434661/jsoup-1-22-2-released"
+          }
+        ],
+        "link": "https://www.oschina.net/news/434661/jsoup-1-22-2-released",
+        "tags": [
+          {
+            "term": "软件更新新闻",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "summary": "jsoup 1.22.2 现已发布，对库进行了多项修复和改进。它使遍历 DOM 时编辑 DOM 的操作更加可预测，使用更新的元素和更佳的文本边界更新了默认的 HTML 标签定义，并提高了解析和 HTTP 传输的可靠性。此版本还修复了清理、流解析、XML 文档类型处理和 Android 打包方面的一些特殊情况。 改进 扩展并明确了NodeTraversor在N...",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "jsoup 1.22.2 现已发布，对库进行了多项修复和改进。它使遍历 DOM 时编辑 DOM 的操作更加可预测，使用更新的元素和更佳的文本边界更新了默认的 HTML 标签定义，并提高了解析和 HTTP 传输的可靠性。此版本还修复了清理、流解析、XML 文档类型处理和 Android 打包方面的一些特殊情况。 改进 扩展并明确了NodeTraversor在N..."
+        },
+        "published": "Mon, 20 Apr 2026 16:32:36 +0800",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          8,
+          32,
+          36,
+          0,
+          110,
+          0
+        ],
+        "id": "https://www.oschina.net/news/434661/jsoup-1-22-2-released",
+        "guidislink": false
+      },
+      "feed_info": "OSCHINA 社区最新新闻"
+    },
+    "embedding": null
+  },
+  {
+    "title": "Flink Agents 0.3 Roadmap 解读",
+    "url": "https://my.oschina.net/u/2828172/blog/19585439",
+    "source": "开源中国 AI 资讯",
+    "published_at": "2026-04-20T07:24:14",
+    "summary": "最近，Flink Agents 发布了 0.2.1 版本，并展示了一个基于该框架构建的 Flink 作业智能运维 Agent，充分展现了其在事件驱动领域的潜力。但更令人兴奋的是，社区已经启动了 0.3 版本的规划讨论，其中涉及的不少功能让我倍感期待。",
+    "content": "最近，Flink Agents 发布了 0.2.1 版本，并展示了一个基于该框架构建的 Flink 作业智能运维 Agent，充分展现了其在事件驱动领域的潜力。但更令人兴奋的是，社区已经启动了 0.3 版本的规划讨论，其中涉及的不少功能让我倍感期待。",
+    "authors": [],
+    "categories": [
+      "other"
+    ],
+    "tags": [
+      "但更令人兴奋的是",
+      "充分展现了其在事件驱动领域的潜力",
+      "agent",
+      "社区已经启动了",
+      "作业智能运维",
+      "发布了",
+      "flink",
+      "并展示了一个基于该框架构建的",
+      "agents",
+      "综合新闻",
+      "版本的规划讨论"
+    ],
+    "importance_score": 0.39,
+    "crawled_at": "2026-04-20T14:23:45.332757",
+    "updated_at": "2026-04-20T14:23:45.332757",
+    "external_ids": {},
+    "references": [],
+    "llm_summary": null,
+    "llm_key_points": [],
+    "llm_tags": [],
+    "raw_data": {
+      "entry": {
+        "title": "Flink Agents 0.3 Roadmap 解读",
+        "title_detail": {
+          "type": "text/plain",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "Flink Agents 0.3 Roadmap 解读"
+        },
+        "links": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://my.oschina.net/u/2828172/blog/19585439"
+          }
+        ],
+        "link": "https://my.oschina.net/u/2828172/blog/19585439",
+        "tags": [
+          {
+            "term": "综合新闻",
+            "scheme": null,
+            "label": null
+          }
+        ],
+        "summary": "最近，Flink Agents 发布了 0.2.1 版本，并展示了一个基于该框架构建的 Flink 作业智能运维 Agent，充分展现了其在事件驱动领域的潜力。但更令人兴奋的是，社区已经启动了 0.3 版本的规划讨论，其中涉及的不少功能让我倍感期待。",
+        "summary_detail": {
+          "type": "text/html",
+          "language": null,
+          "base": "https://www.oschina.net/news/rss?tag=AI",
+          "value": "最近，Flink Agents 发布了 0.2.1 版本，并展示了一个基于该框架构建的 Flink 作业智能运维 Agent，充分展现了其在事件驱动领域的潜力。但更令人兴奋的是，社区已经启动了 0.3 版本的规划讨论，其中涉及的不少功能让我倍感期待。"
+        },
+        "published": "Mon, 20 Apr 2026 15:24:14 +0800",
+        "published_parsed": [
+          2026,
+          4,
+          20,
+          7,
+          24,
+          14,
+          0,
+          110,
+          0
+        ],
+        "id": "https://my.oschina.net/u/2828172/blog/19585439",
+        "guidislink": false
+      },
+      "feed_info": "OSCHINA 社区最新新闻"
+    },
+    "embedding": null
+  }
+]
