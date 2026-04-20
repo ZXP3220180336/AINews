@@ -16,6 +16,7 @@ jobs:
     permissions:
       contents: write
       id-token: write  # 需要OIDC令牌写入权限
+      pages: write     # 需要Pages部署写入权限
 
     steps:
       - name: Checkout repository
