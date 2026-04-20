@@ -9,18 +9,21 @@ on:
 jobs:
   crawl-and-deploy:
     runs-on: ubuntu-latest
+    # 强制使用 Node.js 24 以消除弃用警告
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     # 必须加这个权限，否则无法部署 Pages
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.14"
           cache: "pip"
@@ -55,21 +58,13 @@ jobs:
           python scripts/generate_site.py
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./data/output
 
       - name: Deploy to GitHub Pages
         id: deployment
-        #uses: actions/deploy-pages@v4
-        # 这一步是核心：触发 GitHub Pages 正式部署
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./data/output
-          keep_files: false
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+        uses: actions/deploy-pages@v5
 
       - name: Send success notification (optional)
         if: success()
