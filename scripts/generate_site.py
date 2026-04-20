@@ -67,7 +67,7 @@ def main(date=None):
 
     # Generate site
     site_config = SiteConfig(
-        output_dir=config.settings.get("output_dir", "./data/output"),
+        output_dir="./data/output",
         site_title=config.settings.get("site_title", "AI News Digest"),
         site_description=config.settings.get(
             "site_description", "Daily AI news aggregator"

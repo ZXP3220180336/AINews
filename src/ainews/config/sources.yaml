@@ -181,5 +181,5 @@ settings:
   max_articles_per_source: 20
   enable_summarization: false
   summarization_model: "gpt-3.5-turbo"
-  output_dir: "./data/output"
+  output_dir: "./data/processed"
   cache_dir: "./data/cache"

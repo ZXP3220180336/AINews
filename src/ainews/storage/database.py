@@ -84,7 +84,7 @@ class ArticleStorage:
                 if key in article_dict and article_dict[key]:
                     try:
                         article_dict[key] = datetime.fromisoformat(article_dict[key])
-                    except ValueError, TypeError:
+                    except (ValueError, TypeError):
                         # Keep as string if parsing fails
                         pass
 
